@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    color: aliceblue;
+    background-color: rgb(105, 97, 92);
+}
+
+.aboutme{
+	    background-color: indianred;
+    color: whitesmoke;
+    align-items: center;
+    height: 450px;
+    margin:20px;
+    padding: 20px;
+		border-radius: 30px;
+}
+
+.navbar{
+    margin: 0;
+    background-color: indianred;
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+
+.item{
+	  padding: 1% 2%;
+    border: 4px solid whitesmoke;
+    margin: 1.3rem 3rem;
+    height: 25rem;
+    flex-basis: 20%;
+    border-radius: 50px;
+		background-color: indianred;
+}
+
+
+
+.item>img{
+	  height: 8rem;
+    width: 10rem;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+
+
+.contenedor{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+    
+
+
+.boton{
+    font: menu;
+    list-style: none;
+    width: 33%;
+    border: solid 2px #A9A9A9;
+    text-align: center;
+    border-right: solid 1px #A9A9A9;
+    border-left:solid 1px #A9A9A9;
+}
+
+li{
+    margin-top: 13px;
+}
+
+.navbar :hover{
+    transition: all 2s ease;
+    background-color: #BA2100;
+
+}
+
+.contener-imagen{
+    width: 100%;
+    height: 100%;
+    
+}
+img{
+	width: 100%;
+	height: 100%;
+
+}
+
+
+div .detras {
+	height: 25px;
+}
+
+div .detras-central{
+  text-align: center;
+}
+
+
+
+
+.texto{
+	color: black;
+	margin: 5px auto 15px;
+	height: 2rem;
+	width: 90%;
+	padding: 10px;
+	border: solid 2px wheat;
+	
+}
+
+
+
+.Formulario{
+    display: flex;
+    padding: 2rem;
+    margin: auto;
+    width: 90%;
+    height: 30rem;
+    flex-direction: column;
+}
+
+.center{
+    background-color: #BA2100;
+    color:white;
+    padding: 5px;
+    width: 10%;
+    align-self: center;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.nivel{
+    height: 20px;
+    border-radius: 20px;
+    background: whitesmoke;
+    border-radius: 20px;
+    border: 3px solid whitesmoke;
+    margin: 0px 30px;
+}
+
+#cuadrojava{
+    height: 20px;
+    border-radius: 20px;
+    background:green;
+    width: 50%;
+    border-radius: 20px;
+}
+
+#cuadroangular{
+    height: 20px;
+    border-radius: 20px;
+    background:green;
+    width: 20%;
+    border-radius: 20px;
+}
+
+#cuadrofirebase{
+    height: 20px;
+    border-radius: 20px;
+    background: green;
+    width: 10%;
+    border-radius: 20px;
+}
+
+#cuadrohtml{
+    height: 20px;
+    border-radius: 20px;
+    background:green;
+    width: 90%;
+    border-radius: 20px;
+}
+
+#cuadrocss{
+    height: 20px;
+    border-radius: 20px;
+    background: green;
+    width: 40%;
+    border-radius: 20px;
+}
+
+#cuadrojs{
+    height: 20px;
+    border-radius: 20px;
+    background:green;
+    width: 50%;
+    border-radius: 20px;
+}
+
+#cuadropython{
+    height: 20px;
+    border-radius: 20px;
+    background:green;
+    width: 70%;
+    border-radius: 20px;
+}
+
+#cuadrohaskell{
+    height: 20px;
+    border-radius: 20px;
+    background:green;
+    width: 50%;
+    border-radius: 20px;
+}
+
+#mifoto{
+    height: 224px;
+    width: 224px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
